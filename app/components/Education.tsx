@@ -37,7 +37,7 @@ export default function Education() {
             height={20}
             className="mr-2"
           />
-          <p className="font-semibold text-2xl">Dean's List</p>
+          <p className="font-semibold text-2xl">Dean&apos;s List</p>
         </div>
         <div className="flex items-center mb-2">
           <Image
