@@ -11,7 +11,7 @@ export default function Connect() {
   };
 
   return (
-    <div className="border-l-2 border-gray-200 pl-4">
+    <div className="border-l-2 border-gray-200 pl-4 mb-6">
       <p className="p-1 flex items-center">
         <Image
           src="/envelope.png"

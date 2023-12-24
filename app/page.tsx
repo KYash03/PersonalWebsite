@@ -35,7 +35,7 @@ export default function Home() {
                 setClickedState: setClickConnect,
                 clickedState: isClickedConnect,
               })}
-              className="mb-2 text-2xl font-semibold hover:underline flex items-center"
+              className="mb-6 text-2xl font-semibold hover:underline flex items-center"
             >
               <Image
                 src={isClickedConnect ? "/down.png" : "/right.png"}
@@ -54,7 +54,7 @@ export default function Home() {
                 setClickedState: setClickEducation,
                 clickedState: isClickedEducation,
               })}
-              className="mb-2 text-2xl font-semibold hover:underline flex items-center"
+              className="mb-6 text-2xl font-semibold hover:underline flex items-center"
             >
               <Image
                 src={isClickedEducation ? "/down.png" : "/right.png"}
