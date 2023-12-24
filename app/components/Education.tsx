@@ -28,7 +28,7 @@ export default function Education() {
           <p>Sept 2021 - April 2026</p>
         </p>
       </div>
-      <div className="flex flex-col mb-6">
+      <div className="flex flex-col">
         <div className="flex items-center mb-2">
           <Image
             src="/trophy.png"

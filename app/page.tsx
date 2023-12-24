@@ -25,7 +25,7 @@ export default function Home() {
     };
 
   return (
-    <main className="bg-slate-200 h-screen">
+    <main className="min-h-screen">
       <Header />
       <div className="flex font-sans text-lg">
         <div className="w-full max-w-screen-md flex flex-col space-y-4 mx-auto">
