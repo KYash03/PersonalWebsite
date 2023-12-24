@@ -1,15 +1,6 @@
-"use client";
-
-import { useState } from "react";
 import Image from "next/image";
 
 export default function Connect() {
-  const [isClicked, setClick] = useState(false);
-
-  const handleClick = () => {
-    setClick(!isClicked);
-  };
-
   return (
     <div className="border-l-2 border-gray-200 pl-4 mb-6">
       <p className="p-1 flex items-center">

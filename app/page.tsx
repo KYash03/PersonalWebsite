@@ -48,7 +48,7 @@ export default function Home() {
             </button>
             {isClickedConnect && <Connect />}
 
-            {/* EDUCATION */}
+            {/* EDUCATION AND AWARDS*/}
             <button
               onClick={handleClick({
                 setClickedState: setClickEducation,
@@ -63,7 +63,7 @@ export default function Home() {
                 height={20}
                 className="mr-2"
               />
-              Education
+              Education and Awards
             </button>
             {isClickedEducation && <Education />}
           </div>
