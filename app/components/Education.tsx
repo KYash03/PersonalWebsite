@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Education() {
   return (
     <div className="border-l-2 border-gray-200 pl-4 mb-6">
-      <div className="border-2 border-black p-6 rounded-lg mb-6">
+      <div className="border-2 border-black p-4 rounded-lg mb-6">
         <p className="text-center border-b-2 border-black mb-4 pb-4 font-semibold text-xl">
           The University of British Columbia, Okanagan
         </p>
