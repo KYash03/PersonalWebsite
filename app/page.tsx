@@ -5,13 +5,22 @@ import Image from "next/image";
 import Connect from "./components/Connect";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
+import Education from "./components/Education";
+
+interface Click {
+  clickedState: boolean;
+  setClickedState: (value: boolean) => void;
+}
 
 export default function Home() {
   const [isClickedConnect, setClickConnect] = useState(false);
+  const [isClickedEducation, setClickEducation] = useState(false);
 
-  const handleClick = () => {
-    setClickConnect(!isClickedConnect);
-  };
+  const handleClick =
+    ({ setClickedState, clickedState }: Click) =>
+    () => {
+      setClickedState(!clickedState);
+    };
 
   return (
     <main>
@@ -22,31 +31,41 @@ export default function Home() {
           <div>
             {/* CONNECT */}
             <button
-              onClick={handleClick}
+              onClick={handleClick({
+                setClickedState: setClickConnect,
+                clickedState: isClickedConnect,
+              })}
               className="mb-2 text-2xl font-semibold hover:underline flex items-center"
             >
-              {isClickedConnect ? (
-                <Image
-                  src="/down.png"
-                  alt=""
-                  width={20}
-                  height={20}
-                  className="mr-2"
-                />
-              ) : (
-                <Image
-                  src="/right.png"
-                  alt=""
-                  width={20}
-                  height={20}
-                  className="mr-2"
-                />
-              )}{" "}
+              <Image
+                src={isClickedConnect ? "/down.png" : "/right.png"}
+                alt="Toggle"
+                width={20}
+                height={20}
+                className="mr-2"
+              />
               Connect
             </button>
             {isClickedConnect && <Connect />}
 
             {/* EDUCATION */}
+            <button
+              onClick={handleClick({
+                setClickedState: setClickEducation,
+                clickedState: isClickedEducation,
+              })}
+              className="mb-2 text-2xl font-semibold hover:underline flex items-center"
+            >
+              <Image
+                src={isClickedEducation ? "/down.png" : "/right.png"}
+                alt="Toggle"
+                width={20}
+                height={20}
+                className="mr-2"
+              />
+              Education
+            </button>
+            {isClickedEducation && <Education />}
           </div>
         </div>
       </div>
