@@ -13,7 +13,7 @@ interface Click {
 }
 
 export default function Home() {
-  const [isClickedConnect, setClickConnect] = useState(false);
+  const [isClickedConnect, setClickConnect] = useState(true);
   const [isClickedEducation, setClickEducation] = useState(false);
 
   const handleClick =
