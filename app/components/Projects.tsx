@@ -1,4 +1,4 @@
-import Image from "next/image";
+import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 
 export default function Projects() {
   const projects = [
@@ -74,13 +74,7 @@ export default function Projects() {
             rel="noopener noreferrer"
           >
             {project.title}
-            <Image
-              src="/external-link.png"
-              alt="External Link"
-              width={20}
-              height={20}
-              className="ml-1"
-            />
+            <OpenInNewIcon className="ml-1" />
           </a>
           <p className="my-2">{project.description}</p>
           <p>Tech: {project.technologies}</p>
