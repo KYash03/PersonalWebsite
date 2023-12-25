@@ -28,7 +28,19 @@ export default function WorkExperience() {
       dates: "July 2023",
       location: "New Delhi, Delhi",
       bulletPoints: [
-        "Independently developed and deployed www.lexsterlawdemo.com using MERN, Tailwind CSS, Material UI, and Vite on Heroku, showcasing co-founders’ requirements and receiving positive feedback from 96% of the review team.",
+        <>
+          Independently developed and deployed{" "}
+          <a
+            href="http://www.lexsterlawdemo.com"
+            target="_blank"
+            className="underline"
+          >
+            www.lexsterlawdemo.com
+          </a>{" "}
+          using MERN, Tailwind CSS, Material UI, and Vite on Heroku, showcasing
+          co-founders’ requirements and receiving positive feedback from 96% of
+          the review team.
+        </>,
         "Improved site performance and user engagement with MVC architecture and RESTful APIs, reducing load times by 40% and increasing user interaction by 50%.",
       ],
     },

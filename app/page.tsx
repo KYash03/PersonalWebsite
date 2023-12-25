@@ -23,7 +23,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      {/* TO DO: SKILLS, Lexster law hyperlink*/}
+      {/* TO DO: SKILLS*/}
       <Footer />
     </div>
   );
