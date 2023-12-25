@@ -3,6 +3,7 @@ import Intro from "./components/Intro";
 import ConnectButton from "./components/ConnectButton";
 import EducationButton from "./components/EducationButton";
 import WorkExperienceButton from "./components/WorkExperienceButton";
+import ProjectsButton from "./components/ProjectsButton";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
           <ConnectButton />
           <EducationButton />
           <WorkExperienceButton />
+          <ProjectsButton />
         </div>
       </div>
     </main>
