@@ -61,8 +61,7 @@ export default function Education() {
         </div>
         <p>
           The Dean’s List recognizes students who have demonstrated academic
-          excellence by maintaining a sessional average of at least 85% while
-          completing 24 or more credits.
+          excellence by maintaining a sessional average of at least 85%.
         </p>
       </div>
     </div>
