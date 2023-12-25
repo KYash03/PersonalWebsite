@@ -21,6 +21,7 @@ export default function Home() {
           </div>
         </div>
       </main>
+      {/* TO DO: HACKATHON UNI, RESUME, SKILLS, PERSONAL WEBSITE AS PROJECT*/}
       <Footer />
     </div>
   );

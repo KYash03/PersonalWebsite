@@ -48,9 +48,9 @@ export default function Projects() {
     },
     {
       title: "SunScope - Hackathon Project",
-      link: "https://github.com/KYash03/SunScope-Full",
+      link: "https://github.com/link-to-sunscope",
       description:
-        "Led frontend development of a SPA assessing residential locations' solar potential, integrating Google's Solar API.",
+        "Led frontend development of a SPA assessing residential locations' solar potential, integrating Google's Solar API. This project was developed for Hack the Change 2023 hosted by the University of Calgary.",
       technologies:
         "Google's Solar API, React, TypeScript, Python (Flask), Google Cloud Run, Netlify",
     },
