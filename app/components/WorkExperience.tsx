@@ -1,4 +1,6 @@
-import Image from "next/image";
+import DateRangeIcon from "@mui/icons-material/DateRange";
+import BusinessIcon from "@mui/icons-material/Business";
+import PlaceIcon from "@mui/icons-material/Place";
 
 export default function WorkExperience() {
   const jobs = [
@@ -62,29 +64,11 @@ export default function WorkExperience() {
         <div key={index} className="mb-4">
           <p className="font-bold text-xl mb-2">{job.title}</p>
           <div className="flex items-center mb-2">
-            <Image
-              src="/company.png"
-              alt="Company"
-              width={20}
-              height={20}
-              className="mr-2"
-            />
+            <BusinessIcon className="mr-2" />
             <span className="mr-4">{job.company}</span>
-            <Image
-              src="/schedule.png"
-              alt="Dates"
-              width={20}
-              height={20}
-              className="mr-2"
-            />
+            <DateRangeIcon className="mr-2" />
             <span className="mr-4">{job.dates}</span>
-            <Image
-              src="/location.png"
-              alt="Location"
-              width={20}
-              height={20}
-              className="mr-2"
-            />
+            <PlaceIcon className="mr-2" />
             <span>{job.location}</span>
           </div>
           <ul className="list-disc pl-6">

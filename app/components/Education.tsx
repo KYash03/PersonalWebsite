@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import SchoolIcon from "@mui/icons-material/School";
 import DateRangeIcon from "@mui/icons-material/DateRange";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
