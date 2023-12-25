@@ -5,6 +5,7 @@ import EducationButton from "./components/EducationButton";
 import WorkExperienceButton from "./components/WorkExperienceButton";
 import ProjectsButton from "./components/ProjectsButton";
 import ResumeButton from "./components/ResumeButton";
+import TechnicalSkillsButton from "./components/TechnicalSkillsButton";
 import Footer from "./components/Footer";
 
 export default function Home() {
@@ -19,11 +20,12 @@ export default function Home() {
             <EducationButton />
             <WorkExperienceButton />
             <ProjectsButton />
+            <TechnicalSkillsButton />
             <ResumeButton />
           </div>
         </div>
       </main>
-      {/* TO DO: SKILLS*/}
+      {/* TO DO: MUI ICONS, get grey borders to line up, padding/margins check, content check*/}
       <Footer />
     </div>
   );
