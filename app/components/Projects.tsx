@@ -4,35 +4,35 @@ export default function Projects() {
   const projects = [
     {
       title: "UBC Stats Companion",
-      link: "https://github.com/link-to-ubc-stats-companion",
+      link: "https://chromewebstore.google.com/detail/ubc-stats-companion/hogjbhheidjgkabgjfhjdmaieppefagj#",
       description:
         "JavaScript-based Chrome extension for UBC students to access course statistics and professor ratings.",
       technologies: "HTML, CSS, JS, jQuery, Bootstrap",
     },
     {
       title: "CNN-Based Pneumonia Detection Web App",
-      link: "https://github.com/link-to-pneumonia-detection-app",
+      link: "https://github.com/KYash03/Flask-CNN-Project",
       description:
         "Flask web app for pneumonia detection from X-ray images, using a custom CNN with Keras.",
       technologies: "Python (Flask, Keras, PyTest), GCP App Engine, Bootstrap",
     },
     {
       title: "PlantPal",
-      link: "https://github.com/link-to-plantpal",
+      link: "https://github.com/KYash03/PlantPal",
       description:
         "iOS app for plant disease identification using Core ML, with image uploads from PhotosUI.",
       technologies: "Swift, SwiftUI, UIKit, Core ML, Create ML",
     },
     {
       title: "iClicker Clone",
-      link: "https://github.com/link-to-iclicker-clone",
+      link: "https://github.com/KYash03/COSC-304-iClicker-Clone",
       description:
         "Web-based polling platform developed in an Agile environment, using object-oriented principles.",
       technologies: "HTML, CSS, JSP, SQL, Docker",
     },
     {
       title: "Human Activity Recognition Analysis + Web App",
-      link: "https://github.com/link-to-human-activity-recognition",
+      link: "https://github.com/KYash03/MotionSenseML",
       description:
         "FastAPI API and web app for predicting anthropometric characteristics and activity classes.",
       technologies:
@@ -40,7 +40,7 @@ export default function Projects() {
     },
     {
       title: "Breast Cancer Dataset Analysis",
-      link: "https://github.com/link-to-breast-cancer-dataset-analysis",
+      link: "https://github.com/KYash03/BreastCancerWebApp",
       description:
         "Created a Tableau dashboard and a Streamlit app for breast cancer sample analysis using a Support Vector Classifier model.",
       technologies:
@@ -48,7 +48,7 @@ export default function Projects() {
     },
     {
       title: "SunScope - Hackathon Project",
-      link: "https://github.com/link-to-sunscope",
+      link: "https://github.com/KYash03/SunScope-Full",
       description:
         "Led frontend development of a SPA assessing residential locations' solar potential, integrating Google's Solar API.",
       technologies:
