@@ -1,6 +1,4 @@
 import Image from "next/image";
-// If using FontAwesome, import the icon
-// import { FaExternalLinkAlt } from 'react-icons/fa';
 
 export default function Projects() {
   const projects = [
