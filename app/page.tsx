@@ -4,6 +4,7 @@ import ConnectButton from "./components/ConnectButton";
 import EducationButton from "./components/EducationButton";
 import WorkExperienceButton from "./components/WorkExperienceButton";
 import ProjectsButton from "./components/ProjectsButton";
+import ResumeButton from "./components/ResumeButton";
 import Footer from "./components/Footer";
 
 export default function Home() {
@@ -18,10 +19,11 @@ export default function Home() {
             <EducationButton />
             <WorkExperienceButton />
             <ProjectsButton />
+            <ResumeButton />
           </div>
         </div>
       </main>
-      {/* TO DO: HACKATHON UNI, RESUME, SKILLS, PERSONAL WEBSITE AS PROJECT*/}
+      {/* TO DO: SKILLS, Lexster law hyperlink*/}
       <Footer />
     </div>
   );

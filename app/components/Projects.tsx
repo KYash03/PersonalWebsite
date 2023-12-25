@@ -54,6 +54,13 @@ export default function Projects() {
       technologies:
         "Google's Solar API, React, TypeScript, Python (Flask), Google Cloud Run, Netlify",
     },
+    {
+      title: "Personal Portfolio Website",
+      link: "https://CHANGE-THIS.com",
+      description:
+        "A comprehensive portfolio website showcasing my skills, projects, and professional journey. Features a clean, responsive design with interactive elements to provide a seamless user experience.",
+      technologies: "React, Tailwind CSS, Next.js, Vercel, TypeScript",
+    },
   ];
 
   return (
