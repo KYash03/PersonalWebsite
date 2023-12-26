@@ -66,7 +66,10 @@ export default function Projects() {
   return (
     <div className="border-l-2 border-gray-200 pl-4 mb-6">
       {projects.map((project, index) => (
-        <div key={index} className="mb-4">
+        <div
+          key={index}
+          className={index !== projects.length - 1 ? "mb-4" : ""}
+        >
           <a
             href={project.link}
             className="text-xl font-bold underline flex items-center"
