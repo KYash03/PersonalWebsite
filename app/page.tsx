@@ -8,24 +8,31 @@ import ResumeButton from "./components/ResumeButton";
 import TechnicalSkillsButton from "./components/TechnicalSkillsButton";
 import Footer from "./components/Footer";
 
+import Head from "next/head";
+
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Header />
-      <main className="flex-grow">
-        <div className="flex font-sans text-lg">
-          <div className="w-full max-w-screen-md flex flex-col space-y-4 mx-auto">
-            <Intro />
-            <ConnectButton />
-            <EducationButton />
-            <WorkExperienceButton />
-            <ProjectsButton />
-            <TechnicalSkillsButton />
-            <ResumeButton />
+    <>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div className="flex flex-col min-h-screen">
+        <Header />
+        <main className="flex-grow">
+          <div className="flex font-sans text-lg">
+            <div className="w-full max-w-screen-md flex flex-col space-y-4 mx-auto">
+              <Intro />
+              <ConnectButton />
+              <EducationButton />
+              <WorkExperienceButton />
+              <ProjectsButton />
+              <TechnicalSkillsButton />
+              <ResumeButton />
+            </div>
           </div>
-        </div>
-      </main>
-      <Footer />
-    </div>
+        </main>
+        <Footer />
+      </div>
+    </>
   );
 }
