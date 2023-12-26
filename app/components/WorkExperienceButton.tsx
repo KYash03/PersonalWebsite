@@ -1,7 +1,8 @@
 "use client";
 import { useState } from "react";
 
-import Image from "next/image";
+import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 import WorkExperience from "./WorkExperience";
 
@@ -19,16 +20,14 @@ export default function WorkExperienceButton() {
         })}
         className="mb-6 text-2xl font-semibold hover:underline flex items-center"
       >
-        <Image
-          src={isClickedWorkExperience ? "/down.png" : "/right.png"}
-          alt="Toggle"
-          width={20}
-          height={20}
-          className="mr-2"
-        />
+        {isClickedWorkExperience ? (
+          <KeyboardArrowDownIcon className="mr-2" />
+        ) : (
+          <KeyboardArrowRightIcon className="mr-2" />
+        )}
         Work Experience
       </button>
-      {isClickedWorkExperience && <WorkExperience />}{" "}
+      {isClickedWorkExperience && <WorkExperience />}
     </>
   );
 }

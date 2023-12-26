@@ -1,7 +1,8 @@
 "use client";
 import { useState } from "react";
 
-import Image from "next/image";
+import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 import Education from "./Education";
 
@@ -19,13 +20,11 @@ export default function EducationButton() {
         })}
         className="mb-6 text-2xl font-semibold hover:underline flex items-center"
       >
-        <Image
-          src={isClickedEducation ? "/down.png" : "/right.png"}
-          alt="Toggle"
-          width={20}
-          height={20}
-          className="mr-2"
-        />
+        {isClickedEducation ? (
+          <KeyboardArrowDownIcon className="mr-2" />
+        ) : (
+          <KeyboardArrowRightIcon className="mr-2" />
+        )}
         Education and Awards
       </button>
       {isClickedEducation && <Education />}

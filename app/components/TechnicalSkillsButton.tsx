@@ -1,7 +1,8 @@
 "use client";
 import { useState } from "react";
 
-import Image from "next/image";
+import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 import TechnicalSkills from "./TechnicalSkills";
 
@@ -19,13 +20,11 @@ export default function TechnicalSkillsButton() {
         })}
         className="mb-6 text-2xl font-semibold hover:underline flex items-center"
       >
-        <Image
-          src={isClickedTechnicalSkills ? "/down.png" : "/right.png"}
-          alt="Toggle"
-          width={20}
-          height={20}
-          className="mr-2"
-        />
+        {isClickedTechnicalSkills ? (
+          <KeyboardArrowDownIcon className="mr-2" />
+        ) : (
+          <KeyboardArrowRightIcon className="mr-2" />
+        )}
         Top Technical Skills
       </button>
       {isClickedTechnicalSkills && <TechnicalSkills />}
