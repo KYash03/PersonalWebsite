@@ -56,7 +56,7 @@ export default function Projects() {
     },
     {
       title: "Personal Portfolio Website",
-      link: "https://CHANGE-THIS.com",
+      link: "https://github.com/KYash03/PersonalWebsite",
       description:
         "A comprehensive portfolio website showcasing my skills, projects, and professional journey. Features a clean, responsive design with interactive elements to provide a seamless user experience.",
       technologies: "React, Tailwind CSS, Next.js, Vercel, TypeScript",

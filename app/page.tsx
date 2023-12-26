@@ -25,7 +25,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-      {/* TO DO: MUI ICONS, get grey borders to line up, padding/margins check, content check*/}
       <Footer />
     </div>
   );
