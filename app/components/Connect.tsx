@@ -23,7 +23,7 @@ export default function Connect() {
           Yash Kumar
         </a>
       </p>
-      <p className="p-1 flex items-center">
+      <p className="px-1 pt-1 flex items-center">
         <GitHubIcon className="mr-2" />
         <span className="font-semibold mr-1">GitHub:</span>
         <a
