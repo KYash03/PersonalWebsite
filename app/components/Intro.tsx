@@ -6,7 +6,7 @@ export default function Intro() {
         specialize in machine learning, data analysis and developing web and
         mobile apps.
       </p>
-      <p>For a detailed look, check out my resume at the end of this page.</p>
+      <p>For a detailed look, check out my résumé at the end of this page.</p>
     </div>
   );
 }
