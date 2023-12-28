@@ -6,7 +6,7 @@ export default function Projects() {
       title: "UBC Stats Companion",
       link: "https://chromewebstore.google.com/detail/ubc-stats-companion/hogjbhheidjgkabgjfhjdmaieppefagj#",
       description:
-        "JavaScript-based Chrome extension for UBC students to access course statistics and professor ratings.",
+        "JavaScript-based Chrome extension for UBC students to access course statistics and professor ratings. Currently has 440+ users and a five-star rating.",
       technologies: "HTML, CSS, JS, jQuery, Bootstrap",
     },
     {
@@ -20,21 +20,21 @@ export default function Projects() {
       title: "PlantPal",
       link: "https://github.com/KYash03/PlantPal",
       description:
-        "iOS app for plant disease identification using Core ML, with image uploads from PhotosUI.",
+        "iOS app utilizing SwiftUI and Core ML for plant disease identification.",
       technologies: "Swift, SwiftUI, UIKit, Core ML, Create ML",
     },
     {
       title: "iClicker Clone",
       link: "https://github.com/KYash03/COSC-304-iClicker-Clone",
       description:
-        "Web-based polling platform developed in an Agile environment, using object-oriented principles.",
+        "Developed a web-based polling platform using Agile methodologies and object-oriented principles for a COSC 310 group project.",
       technologies: "HTML, CSS, JSP, SQL, Docker",
     },
     {
       title: "Human Activity Recognition Analysis + Web App",
       link: "https://github.com/KYash03/MotionSenseML",
       description:
-        "FastAPI API and web app for predicting anthropometric characteristics and activity classes.",
+        "Created a FastAPI API on AWS EC2 using KNN and GridSearchCV for predicting anthropometric characteristics and activity classes",
       technologies:
         "NumPy, pandas, Matplotlib, Seaborn, scikit-learn, FastAPI, AWS",
     },
@@ -50,7 +50,7 @@ export default function Projects() {
       title: "SunScope - Hackathon Project",
       link: "https://github.com/link-to-sunscope",
       description:
-        "Led frontend development of a SPA assessing residential locations' solar potential, integrating Google's Solar API. This project was developed for Hack the Change 2023 hosted by the University of Calgary.",
+        "Led frontend development of a SPA assessing residential locations' solar potential, integrating Google's Solar API. This project was developed for Hack the Change 2023 hosted by The University of Calgary.",
       technologies:
         "Google's Solar API, React, TypeScript, Python (Flask), Google Cloud Run, Netlify",
     },
@@ -58,7 +58,7 @@ export default function Projects() {
       title: "Personal Portfolio Website",
       link: "https://github.com/KYash03/PersonalWebsite",
       description:
-        "A comprehensive portfolio website showcasing my skills, projects, and professional journey. Features a clean, responsive design with interactive elements to provide a seamless user experience.",
+        "Comprehensive website showcasing my skills, projects and professional journey. Created using Next.js and deployed on Vercel for optimal performance.",
       technologies: "React, Tailwind CSS, Next.js, Vercel, TypeScript",
     },
   ];
