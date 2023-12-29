@@ -27,7 +27,7 @@ export default function Projects() {
       title: "iClicker Clone",
       link: "https://github.com/KYash03/COSC-304-iClicker-Clone",
       description:
-        "Developed a web-based polling platform using Agile methodologies and object-oriented principles for a COSC 310 group project.",
+        "Developed a web-based polling platform using Agile methodologies and object-oriented principles for COSC 310's group project.",
       technologies: "HTML, CSS, JSP, SQL, Docker",
     },
     {
