@@ -18,7 +18,7 @@ export default function ProjectsButton() {
           setClickedState: setClickProjects,
           clickedState: isClickedProjects,
         })}
-        className="mb-6 text-2xl font-semibold hover:underline flex items-center"
+        className="mb-6 text-3xl font-semibold hover:underline flex items-center"
       >
         {isClickedProjects ? (
           <KeyboardArrowDownIcon className="mr-2" />

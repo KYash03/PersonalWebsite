@@ -18,7 +18,7 @@ export default function WorkExperienceButton() {
           setClickedState: setClickWorkExperience,
           clickedState: isClickedWorkExperience,
         })}
-        className="mb-6 text-2xl font-semibold hover:underline flex items-center"
+        className="mb-6 text-3xl font-semibold hover:underline flex items-center"
       >
         {isClickedWorkExperience ? (
           <KeyboardArrowDownIcon className="mr-2" />

@@ -18,7 +18,7 @@ export default function EducationButton() {
           setClickedState: setClickEducation,
           clickedState: isClickedEducation,
         })}
-        className="mb-6 text-2xl font-semibold hover:underline flex items-center"
+        className="mb-6 text-3xl font-semibold hover:underline flex items-center"
       >
         {isClickedEducation ? (
           <KeyboardArrowDownIcon className="mr-2" />
