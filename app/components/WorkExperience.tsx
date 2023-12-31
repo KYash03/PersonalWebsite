@@ -43,7 +43,7 @@ export default function WorkExperience() {
           co-founders’ requirements and receiving positive feedback from 96% of
           the review team.
         </>,
-        "Improved site performance and user engagement with MVC architecture and RESTful APIs, reducing load times by 40% and increasing user interaction by 50%.",
+        "Improved site performance and user engagement with MVC architecture and RESTful APIs, reducing load times by 40%.",
         "Streamlined form handling by integrating Formik and Yup, reducing form completion time by 60%. Utilized Postman for API testing, resulting in a 40% decrease in user-reported issues during the review team’s testing.",
       ],
     },
