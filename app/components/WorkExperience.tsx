@@ -20,7 +20,7 @@ export default function WorkExperience() {
       dates: "Sept 2023 – Oct 2023",
       location: "Kelowna, BC",
       bulletPoints: [
-        "Implemented UI improvements using React Native and TypeScript, including colour scheme adjustments and bottom sheet size optimization, significantly elevating user interface aesthetics and functional efficiency.",
+        "Implemented multiple new features and UI improvements using React Native and TypeScript, including colour scheme adjustments and bottom sheet size optimization, significantly increasing user engagement and usability.",
         "Gained proficiency in Google Firebase, understanding its role and capabilities within the app’s framework.",
       ],
     },
