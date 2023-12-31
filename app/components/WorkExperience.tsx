@@ -15,7 +15,7 @@ export default function WorkExperience() {
       ],
     },
     {
-      title: "React Native Developer",
+      title: "React Native Developer Intern",
       company: "Brokol",
       dates: "Sept 2023 – Oct 2023",
       location: "Kelowna, BC",
