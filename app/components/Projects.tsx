@@ -6,7 +6,7 @@ export default function Projects() {
       title: "UBC Stats Companion",
       link: "https://chromewebstore.google.com/detail/ubc-stats-companion/hogjbhheidjgkabgjfhjdmaieppefagj#",
       description:
-        "JavaScript-based Chrome extension for UBC students to access course statistics and professor ratings. Currently has 440+ users and a five-star rating.",
+        "JavaScript-based Chrome extension for UBC students to access course statistics and professor ratings. Currently has 450+ users and a five-star rating.",
       technologies: "HTML, CSS, JS, jQuery, Bootstrap",
     },
     {
