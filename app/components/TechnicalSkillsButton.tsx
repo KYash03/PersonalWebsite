@@ -25,7 +25,7 @@ export default function TechnicalSkillsButton() {
         ) : (
           <KeyboardArrowRightIcon className="mr-2" />
         )}
-        Top Technical Skills
+        Technical Skills
       </button>
       {isClickedTechnicalSkills && <TechnicalSkills />}
     </>
