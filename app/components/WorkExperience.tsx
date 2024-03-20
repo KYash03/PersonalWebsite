@@ -5,46 +5,23 @@ import PlaceIcon from "@mui/icons-material/Place";
 export default function WorkExperience() {
   const jobs = [
     {
-      title: "Software Developer Intern",
+      title: "Software Developer",
       company: "The University of British Columbia",
-      dates: "Sept 2023 – Present",
+      dates: "Sept 2023 – Mar 2024",
       location: "Kelowna, BC",
       bulletPoints: [
-        "Spearheading the development of a module within a Decision Support System (DSS) designed for processing and displaying CSV data in a React-based table, expected to benefit about 9,000 students with course and study-plan decisions.",
-        "Collaborating with cross-functional teams under Dr Abdallah Mohamed’s guidance to fulfil user requirements.",
+        "Spearheaded the development of a module within a Decision Support System (DSS) designed for processing and displaying CSV data in a React-based table, benefiting about 9,000 students with course and study-plan decisions.",
+        "Collaborated with cross-functional teams under Dr Abdallah Mohamed’s guidance.",
       ],
     },
     {
-      title: "React Native Developer Intern",
+      title: "React Native Developer",
       company: "Brokol",
       dates: "Sept 2023 – Oct 2023",
       location: "Kelowna, BC",
       bulletPoints: [
         "Implemented multiple new features and UI improvements using React Native and TypeScript, including colour scheme adjustments and bottom sheet size optimization, significantly increasing user engagement and usability.",
         "Gained proficiency in Google Firebase, understanding its role and capabilities within the app’s framework.",
-      ],
-    },
-    {
-      title: "Full Stack Developer Intern",
-      company: "Lexster Law",
-      dates: "July 2023",
-      location: "New Delhi, Delhi",
-      bulletPoints: [
-        <>
-          Independently developed and deployed{" "}
-          <a
-            href="http://www.lexsterlawdemo.com"
-            target="_blank"
-            className="underline"
-          >
-            www.lexsterlawdemo.com
-          </a>{" "}
-          using MERN, Tailwind CSS, Material UI, and Vite on Heroku, showcasing
-          co-founders’ requirements and receiving positive feedback from 96% of
-          the review team.
-        </>,
-        "Improved site performance and user engagement with MVC architecture and RESTful APIs, reducing load times by 40%.",
-        "Streamlined form handling by integrating Formik and Yup, reducing form completion time by 60%. Utilized Postman for API testing, resulting in a 40% decrease in user-reported issues during the review team’s testing.",
       ],
     },
     {
