@@ -11,7 +11,7 @@ export default function TechnicalSkills() {
       </p>
       <p className="pb-0.5">
         <strong>Web Development:</strong> HTML, CSS, Node.js, Express.js, React,
-        jQuery, Tailwind CSS, Material UI, Mongoose, Bootstrap, Flask, JSP.
+        jQuery, Tailwind CSS, Material UI, Mongoose, Bootstrap, Flask, JSP
       </p>
       <p className="pb-0.5">
         <strong>Cloud & Databases:</strong> PostgreSQL, MongoDB, GCP, AWS,
