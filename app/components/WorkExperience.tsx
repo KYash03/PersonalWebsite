@@ -7,7 +7,7 @@ export default function WorkExperience() {
     {
       title: "Software Developer",
       company: "The University of British Columbia",
-      dates: "Sept 2023 – Mar 2024",
+      dates: "Sept 2023 – Feb 2024",
       location: "Kelowna, BC",
       bulletPoints: [
         "Spearheaded the development of a module within a Decision Support System (DSS) designed for processing and displaying CSV data in a React-based table, expected to benefit about 9,000 students with course and study-plan decisions.",
