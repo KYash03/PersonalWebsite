@@ -1,4 +1,4 @@
-This repo hosts the code for my personal portfolio website. Technologies used include React, Tailwind CSS, Next.js, Vercel and TypeScript.
+This repo hosts the code for my personal portfolio website. Technologies used include React, Tailwind CSS, Next.js and TypeScript. Deployed on Netlify.
 
 [https://kyash03.com](https://kyash03.com)
 
