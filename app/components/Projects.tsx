@@ -58,7 +58,7 @@ export default function Projects() {
       title: "Personal Portfolio Website",
       link: "https://github.com/KYash03/PersonalWebsite",
       description:
-        "Comprehensive website showcasing my skills, projects and professional journey. Created using Next.js and deployed on Vercel for optimal performance.",
+        "Comprehensive website showcasing my skills, projects and professional journey. Created using Next.js and deployed on Netlify.",
       technologies: "React, Tailwind CSS, Next.js, Vercel, TypeScript",
     },
   ];
