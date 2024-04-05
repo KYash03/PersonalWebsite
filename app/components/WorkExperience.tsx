@@ -11,7 +11,7 @@ export default function WorkExperience() {
       location: "Kelowna, BC",
       bulletPoints: [
         "Spearheaded the development of a module within a Decision Support System (DSS) designed for processing and displaying CSV data in a React-based table, expected to benefit about 9,000 students with course and study-plan decisions.",
-        "Collaborated with cross-functional teams under Dr Abdallah Mohamed's guidance.",
+        "Collaborated with cross-functional teams under Dr. Abdallah Mohamed's guidance.",
       ],
     },
     {
