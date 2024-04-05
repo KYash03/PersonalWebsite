@@ -13,7 +13,7 @@ export default function Projects() {
       title: "CNN-Based Pneumonia Detection Web App",
       link: "https://github.com/KYash03/Flask-CNN-Project",
       description:
-        "Flask web app for pneumonia detection from X-ray images, using a custom CNN with Keras.",
+        "Flask web app for pneumonia detection from X-ray images using a custom CNN with Keras.",
       technologies: "Python (Flask, Keras, PyTest), GCP App Engine, Bootstrap",
     },
     {

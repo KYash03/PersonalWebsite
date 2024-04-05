@@ -7,9 +7,9 @@ export default function Intro() {
         learning.
       </p>
       <p>
-        On this page, you can learn how to connect with me, my education,
-        awards, work experience, projects and skills. Check out my résumé at the
-        end of this page.
+        On this page, you can learn how to connect with me and learn about my
+        education, awards, work experience, projects, and skills. Check out my
+        résumé at the end of this page.
       </p>
     </div>
   );

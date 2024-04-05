@@ -11,7 +11,7 @@ export default function WorkExperience() {
       location: "Kelowna, BC",
       bulletPoints: [
         "Spearheaded the development of a module within a Decision Support System (DSS) designed for processing and displaying CSV data in a React-based table, expected to benefit about 9,000 students with course and study-plan decisions.",
-        "Collaborated with cross-functional teams under Dr Abdallah Mohamed’s guidance.",
+        "Collaborated with cross-functional teams under Dr Abdallah Mohamed's guidance.",
       ],
     },
     {
@@ -21,7 +21,7 @@ export default function WorkExperience() {
       location: "Kelowna, BC",
       bulletPoints: [
         "Implemented multiple new features and UI improvements using React Native and TypeScript, including colour scheme adjustments and bottom sheet size optimization, significantly increasing user engagement and usability.",
-        "Gained proficiency in Google Firebase, understanding its role and capabilities within the app’s framework.",
+        "Gained proficiency in Google Firebase, understanding its role and capabilities within the app's framework.",
       ],
     },
     {
@@ -30,8 +30,8 @@ export default function WorkExperience() {
       dates: "May 2023 – Jun 2023",
       location: "Gurgaon, Haryana",
       bulletPoints: [
-        "Designed and automated a dashboard using Looker Studio and Google Spreadsheets, displaying JIRA-based metrics for 5 projects and 180 tickets, resulting in a 65% increase in stakeholder engagement.",
-        "Employed K-Means clustering for determining centroids and DBSCAN for outlier detection to identify bus routes from Orahi’s bus tracking system’s data, analyzing over 10,000 data points.",
+        "Designed and automated a dashboard using Looker Studio and Google Spreadsheets, displaying JIRA-based metrics for five projects and 180 tickets, resulting in a 65% increase in stakeholder engagement.",
+        "Employed K-Means clustering for determining centroids and DBSCAN for outlier detection to identify bus routes from Orahi's bus tracking system's data, analyzing over 10,000 data points.",
       ],
     },
   ];

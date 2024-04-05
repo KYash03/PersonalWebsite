@@ -33,8 +33,9 @@ export default function Education() {
           </span>
         </div>
         <p>
-          The Dean’s List recognizes students who have demonstrated academic
-          excellence by maintaining a sessional average of at least 85%.
+          The Dean&apos;s List recognizes students who have demonstrated
+          academic excellence by maintaining a sessional average of at least
+          85%.
         </p>
       </div>
     </div>
