@@ -10,8 +10,7 @@ export default function WorkExperience() {
       dates: "Sept 2023 – Feb 2024",
       location: "Kelowna, BC",
       bulletPoints: [
-        "Spearheaded the development of a module within a Decision Support System (DSS) designed for processing and displaying CSV data in a React-based table, expected to benefit about 9,000 students with course and study-plan decisions.",
-        "Collaborated with cross-functional teams under Dr. Abdallah Mohamed's guidance.",
+        "Worked with Dr. Abdallah Mohamed to create software aimed at improving course planning for UBC students. I led the development of a module within the Decision Support System (DSS) designed for processing and displaying CSV data in a React-based table.",
       ],
     },
     {
@@ -20,8 +19,7 @@ export default function WorkExperience() {
       dates: "Sept 2023 – Oct 2023",
       location: "Kelowna, BC",
       bulletPoints: [
-        "Implemented multiple new features and UI improvements using React Native and TypeScript, including colour scheme adjustments and bottom sheet size optimization, significantly increasing user engagement and usability.",
-        "Gained proficiency in Google Firebase, understanding its role and capabilities within the app's framework.",
+        "Worked on new features and UI improvements for Brokol's mobile application using React Native and TypeScript.",
       ],
     },
     {
@@ -30,8 +28,8 @@ export default function WorkExperience() {
       dates: "May 2023 – Jun 2023",
       location: "Gurgaon, Haryana",
       bulletPoints: [
-        "Designed and automated a dashboard using Looker Studio and Google Spreadsheets, displaying JIRA-based metrics for five projects and 180 tickets, resulting in a 65% increase in stakeholder engagement.",
-        "Employed K-Means clustering for determining centroids and DBSCAN for outlier detection to identify bus routes from Orahi's bus tracking system's data, analyzing over 10,000 data points. Utilized GeoPandas for spatial data manipulation and visualization, along with Folium’s “PolyLine” feature to connect centroid points.",
+        "Designed and automated a dashboard, using Looker Studio and Google Spreadsheets, to showcase JIRA-based team performance metrics.",
+        "Utilized K-Means clustering and DBSCAN to identify bus routes from Orahi's tracking system data. Utilized GeoPandas and Folium's 'PolyLine' feature to connect centroid points.",
       ],
     },
   ];
