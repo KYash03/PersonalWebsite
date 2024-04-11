@@ -17,7 +17,7 @@ export default function TechnicalSkills() {
       </p>
       <p className="pb-0.5">
         <strong>Frameworks & Libraries:</strong> React Native, SwiftUI,
-        Streamlit, UIKit, GeoPandas, Core ML, SwiftUI, JUnit
+        Streamlit, UIKit, GeoPandas, Core ML, JUnit
       </p>
       <p>
         <strong>Tools, Database and Cloud:</strong> AWS, GCP, Docker, MongoDB,
