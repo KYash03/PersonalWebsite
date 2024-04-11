@@ -29,7 +29,7 @@ export default function WorkExperience() {
       location: "Gurgaon, Haryana",
       bulletPoints: [
         "Designed and automated a dashboard, using Looker Studio and Google Spreadsheets, to showcase JIRA-based team performance metrics.",
-        "Utilized K-Means clustering and DBSCAN to identify bus routes from Orahi's tracking system data. Utilized GeoPandas and Folium's 'PolyLine' feature to connect centroid points.",
+        "Employed K-Means clustering and DBSCAN to identify bus routes from Orahi's tracking system data. Utilized GeoPandas and Folium's 'PolyLine' feature to connect centroid points.",
       ],
     },
   ];
