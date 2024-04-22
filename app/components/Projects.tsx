@@ -59,7 +59,7 @@ export default function Projects() {
       link: "https://github.com/KYash03/PersonalWebsite",
       description:
         "Comprehensive website showcasing my skills, projects and professional journey. Created using Next.js and deployed on Netlify.",
-      technologies: "React, Tailwind CSS, Next.js, Netlify, TypeScript",
+      technologies: "Tailwind CSS, Next.js, Netlify, TypeScript",
     },
   ];
 
