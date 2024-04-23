@@ -50,7 +50,7 @@ export default function Projects() {
       title: "SunScope - Hackathon Project",
       link: "https://github.com/JapmeetBrar/SunScope",
       description:
-        "Led frontend development of a SPA assessing residential locations' solar potential, integrating Google's Solar API. This project was developed for Hack the Change 2023 hosted by The University of Calgary.",
+        "Led the frontend development of a SPA assessing residential locations' solar potential, integrating Google's Solar API. This project was developed for Hack the Change 2023 hosted by The University of Calgary.",
       technologies:
         "Google's Solar API, React, TypeScript, Python (Flask), Google Cloud Run, Netlify",
     },
