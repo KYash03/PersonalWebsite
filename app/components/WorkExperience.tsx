@@ -5,6 +5,15 @@ import PlaceIcon from "@mui/icons-material/Place";
 export default function WorkExperience() {
   const jobs = [
     {
+      title: "Software Developer Intern",
+      company: "BlackBerry",
+      dates: "May 2024 – Aug 2024",
+      location: "Waterloo, ON",
+      bulletPoints: [
+        "Developing, testing and maintaining UI apps for BlackBerry's UES product suite using React, JavaScript, Redux and GraphQL.",
+      ],
+    },
+    {
       title: "Software Developer",
       company: "The University of British Columbia",
       dates: "Sept 2023 – Feb 2024",
