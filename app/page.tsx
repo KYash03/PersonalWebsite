@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       <div className="flex flex-col min-h-screen">
         <Header />
-        <main className="flex-grow">
+        <main className="flex-grow px-4 md:px-0">
           <div className="flex font-sans text-lg">
             <div className="w-full max-w-screen-md flex flex-col space-y-4 mx-auto">
               <Intro />
