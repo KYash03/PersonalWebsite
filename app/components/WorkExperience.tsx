@@ -48,13 +48,19 @@ export default function WorkExperience() {
       {jobs.map((job, index) => (
         <div key={index} className={index !== jobs.length - 1 ? "mb-4" : ""}>
           <p className="font-bold text-xl mb-2">{job.title}</p>
-          <div className="flex items-center mb-2">
-            <BusinessIcon className="mr-2" />
-            <span className="mr-4">{job.company}</span>
-            <DateRangeIcon className="mr-2" />
-            <span className="mr-4">{job.dates}</span>
-            <PlaceIcon className="mr-2" />
-            <span>{job.location}</span>
+          <div className="flex flex-col md:flex-row md:items-center md:mb-2">
+            <div className="flex items-center mb-2 md:mb-0">
+              <BusinessIcon className="mr-2 md:mr-2" />
+              <span className="mr-4 md:mr-4">{job.company}</span>
+            </div>
+            <div className="flex items-center mb-2 md:mb-0">
+              <DateRangeIcon className="mr-2 md:mr-2" />
+              <span className="mr-4 md:mr-4">{job.dates}</span>
+            </div>
+            <div className="flex items-center">
+              <PlaceIcon className="mr-2 md:mr-2" />
+              <span>{job.location}</span>
+            </div>
           </div>
           <ul className="list-disc pl-6">
             {job.bulletPoints.map((point, idx) => (
