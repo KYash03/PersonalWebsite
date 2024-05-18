@@ -22,7 +22,7 @@ export default function Education() {
       <div className="flex flex-col">
         <div className="flex items-center mb-2">
           <EmojiEventsIcon className="mr-2" />
-          <p className="font-semibold text-2xl">Dean&apos;s List</p>
+          <p className="font-semibold text-xl">Dean&apos;s List</p>
         </div>
         <div className="flex flex-col md:flex-row md:items-center md:mb-2">
           <div className="flex items-center mb-2 md:mb-0 md:mr-4">
@@ -36,7 +36,6 @@ export default function Education() {
             </span>
           </div>
         </div>
-
         <p>
           The Dean&apos;s List recognizes students who have demonstrated
           academic excellence by maintaining a sessional average of at least

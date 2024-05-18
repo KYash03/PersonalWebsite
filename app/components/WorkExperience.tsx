@@ -46,7 +46,7 @@ export default function WorkExperience() {
   return (
     <div className="border-l-2 border-gray-200 pl-4 mb-6">
       {jobs.map((job, index) => (
-        <div key={index} className={index !== jobs.length - 1 ? "mb-4" : ""}>
+        <div key={index} className={index !== jobs.length - 1 ? "mb-6" : ""}>
           <p className="font-bold text-xl mb-2">{job.title}</p>
           <div className="flex flex-col md:flex-row md:items-center md:mb-2">
             <div className="flex items-center mb-2 md:mb-0">

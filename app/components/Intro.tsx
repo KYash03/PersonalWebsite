@@ -1,7 +1,7 @@
 export default function Intro() {
   return (
     <div>
-      <p className="mb-1">
+      <p className="mb-4">
         Hi! I&apos;m Yash, a third-year Data Science student at UBC. I
         specialize in developing web and mobile apps, data analysis and machine
         learning.
