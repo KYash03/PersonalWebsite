@@ -5,7 +5,7 @@ export default function Resume() {
         src="/Yash Kumar.pdf"
         style={{ width: "100%", height: "500px" }}
       ></iframe> */}
-      To be updated...
+      To be updated.
     </div>
   );
 }
