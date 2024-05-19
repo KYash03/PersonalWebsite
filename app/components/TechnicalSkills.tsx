@@ -1,6 +1,6 @@
 export default function TechnicalSkills() {
   return (
-    <div className="border-l-2 border-gray-200 pl-4 mb-6">
+    <div className="border-l-2 border-gray-200 pl-4 mb-4">
       <p className="pb-1">
         <strong>Languages:</strong> Python, Java, C++, SQL, JavaScript,
         TypeScript, Swift, C, R, MATLAB

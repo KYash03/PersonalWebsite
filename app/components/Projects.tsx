@@ -64,11 +64,11 @@ export default function Projects() {
   ];
 
   return (
-    <div className="border-l-2 border-gray-200 pl-4 mb-6">
+    <div className="border-l-2 border-gray-200 pl-4 mb-4">
       {projects.map((project, index) => (
         <div
           key={index}
-          className={index !== projects.length - 1 ? "mb-4" : ""}
+          className={index !== projects.length - 1 ? "mb-3" : ""}
         >
           <a
             href={project.link}

@@ -4,7 +4,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 export default function Connect() {
   return (
-    <div className="border-l-2 border-gray-200 pl-4 mb-6">
+    <div className="border-l-2 border-gray-200 pl-4 mb-4">
       <p className="p-1 flex items-center">
         <EmailIcon className="mr-2" />
         <span className="font-semibold mr-1">Email:</span>
@@ -23,7 +23,7 @@ export default function Connect() {
           Yash Kumar
         </a>
       </p>
-      <p className="px-1 pt-1 flex items-center">
+      <p className="p-1 flex items-center">
         <GitHubIcon className="mr-2" />
         <span className="font-semibold mr-1">GitHub:</span>
         <a

@@ -20,7 +20,7 @@ export default function Home() {
         <Header />
         <main className="flex-grow px-4 md:px-0">
           <div className="flex font-sans text-lg">
-            <div className="w-full max-w-screen-md flex flex-col space-y-6 mx-auto">
+            <div className="w-full max-w-screen-md flex flex-col space-y-4 mx-auto">
               <Intro />
               <ConnectButton />
               <EducationButton />

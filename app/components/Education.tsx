@@ -5,24 +5,24 @@ import BusinessIcon from "@mui/icons-material/Business";
 
 export default function Education() {
   return (
-    <div className="border-l-2 border-gray-200 pl-4 mb-6">
-      <div className="border-2 border-black p-4 rounded-lg mb-6">
+    <div className="border-l-2 border-gray-200 pl-4 mb-4">
+      <div className="border-2 border-black p-4 rounded-lg mb-4">
         <p className="text-center border-b-2 border-black mb-4 pb-4 font-semibold text-xl">
           The University of British Columbia
         </p>
         <p className="p-1 flex items-center">
           <SchoolIcon className="mr-2" />
-          <p>Bachelor of Science in Data Science</p>
+          <span>Bachelor of Science in Data Science</span>
         </p>
         <p className="p-1 flex items-center">
           <DateRangeIcon className="mr-2" />
-          <p>Sept 2021 - April 2026</p>
+          <span>Sept 2021 - April 2026</span>
         </p>
       </div>
       <div className="flex flex-col">
         <div className="flex items-center mb-2">
           <EmojiEventsIcon className="mr-2" />
-          <p className="font-semibold text-xl">Dean&apos;s List</p>
+          <span className="font-semibold text-xl">Dean&apos;s List</span>
         </div>
         <div className="flex flex-col md:flex-row md:items-center md:mb-2">
           <div className="flex items-center mb-2 md:mb-0 md:mr-4">

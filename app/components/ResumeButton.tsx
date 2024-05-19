@@ -18,7 +18,7 @@ export default function ResumeButton() {
           setClickedState: setClickResume,
           clickedState: isClickedResume,
         })}
-        className="mb-6 text-3xl font-semibold hover:underline flex items-center"
+        className="mb-4 text-3xl font-semibold hover:underline flex items-center"
       >
         {isClickedResume ? (
           <KeyboardArrowDownIcon className="mr-2" />

@@ -18,7 +18,7 @@ export default function TechnicalSkillsButton() {
           setClickedState: setClickTechnicalSkills,
           clickedState: isClickedTechnicalSkills,
         })}
-        className="mb-6 text-3xl font-semibold hover:underline flex items-center"
+        className="mb-4 text-3xl font-semibold hover:underline flex items-center"
       >
         {isClickedTechnicalSkills ? (
           <KeyboardArrowDownIcon className="mr-2" />
