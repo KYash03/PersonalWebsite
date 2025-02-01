@@ -1,33 +1,36 @@
 "use client";
-import { useState } from "react";
 
+import { useState } from "react";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
-import Connect from "./Connect";
+interface CollapsibleSectionProps {
+  title: string;
+  defaultOpen?: boolean;
+  children: React.ReactNode;
+}
 
-import { handleClick } from "../Helper";
-
-export default function ConnectButton() {
-  const [isClickedConnect, setClickConnect] = useState(true);
+export default function CollapsibleSection({
+  title,
+  defaultOpen = false,
+  children,
+}: CollapsibleSectionProps) {
+  const [isOpen, setIsOpen] = useState(defaultOpen);
 
   return (
     <>
       <button
-        onClick={handleClick({
-          setClickedState: setClickConnect,
-          clickedState: isClickedConnect,
-        })}
+        onClick={() => setIsOpen((prev) => !prev)}
         className="mb-4 text-3xl font-semibold hover:underline flex items-center"
       >
-        {isClickedConnect ? (
+        {isOpen ? (
           <KeyboardArrowDownIcon className="mr-2" />
         ) : (
           <KeyboardArrowRightIcon className="mr-2" />
         )}
-        Connect
+        {title}
       </button>
-      {isClickedConnect && <Connect />}
+      {isOpen && children}
     </>
   );
 }

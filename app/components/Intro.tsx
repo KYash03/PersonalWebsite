@@ -2,8 +2,8 @@ export default function Intro() {
   return (
     <div>
       <p className="mb-2">
-        Hi! I&apos;m Yash, a third-year Data Science student at UBC. I
-        specialize in developing web and mobile apps, data analysis and machine
+        Hi! I&apos;m Yash, a fourth-year Data Science student at UBC. I
+        specialize in developing web and mobile apps, data analysis, and machine
         learning.
       </p>
       <p>

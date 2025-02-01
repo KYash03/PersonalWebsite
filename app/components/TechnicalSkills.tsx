@@ -1,28 +1,40 @@
+import Section from "./Section";
+
+const skills = [
+  {
+    label: "Languages",
+    value:
+      "Python, Java, C++, SQL, JavaScript, TypeScript, Swift, C, R, MATLAB",
+  },
+  {
+    label: "Web Development",
+    value:
+      "React, Node.js, Express.js, Next.js, Tailwind CSS, Bootstrap, Material UI, Flask, FastAPI, Axios, Mongoose, jQuery, HTML, CSS, JSP",
+  },
+  {
+    label: "Data Science",
+    value:
+      "TensorFlow, Keras, Pandas, NumPy, Scikit‑Learn, Tableau, Matplotlib, Seaborn, Prophet, Looker Studio, Jupyter",
+  },
+  {
+    label: "Frameworks & Libraries",
+    value: "React Native, SwiftUI, Streamlit, UIKit, GeoPandas, Core ML, JUnit",
+  },
+  {
+    label: "Tools, Database and Cloud",
+    value:
+      "AWS, GCP, Docker, MongoDB, PostgreSQL, GitHub, Microsoft SQL Server, Postman, Create ML",
+  },
+];
+
 export default function TechnicalSkills() {
   return (
-    <div className="border-l-2 border-gray-200 pl-4 mb-4">
-      <p className="pb-1">
-        <strong>Languages:</strong> Python, Java, C++, SQL, JavaScript,
-        TypeScript, Swift, C, R, MATLAB
-      </p>
-      <p className="pb-1">
-        <strong>Web Development:</strong> React, Node.js, Express.js, Next.js,
-        Tailwind CSS, Bootstrap, Material UI, Flask, FastAPI, Axios, Mongoose,
-        jQuery, HTML, CSS, JSP
-      </p>
-      <p className="pb-1">
-        <strong>Data Science:</strong> TensorFlow, Keras, Pandas, NumPy,
-        Scikit-Learn, Tableau, Matplotlib, Seaborn, Prophet, Looker Studio,
-        Jupyter
-      </p>
-      <p className="pb-1">
-        <strong>Frameworks & Libraries:</strong> React Native, SwiftUI,
-        Streamlit, UIKit, GeoPandas, Core ML, JUnit
-      </p>
-      <p>
-        <strong>Tools, Database and Cloud:</strong> AWS, GCP, Docker, MongoDB,
-        PostgreSQL, GitHub, Microsoft SQL Server, Postman, Create ML
-      </p>
-    </div>
+    <Section>
+      {skills.map((skill, idx) => (
+        <p key={idx} className="pb-1">
+          <strong>{skill.label}:</strong> {skill.value}
+        </p>
+      ))}
+    </Section>
   );
 }
